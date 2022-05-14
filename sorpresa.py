@@ -1,6 +1,7 @@
 from playsound import playsound
-rutaArchivo = "./audio/sorpresa.mp3"
+
+# comienza el script
+rutaArchivo = "./audio/sorpresa.mp3"    # ruta del archivo de audio
 print("Comienza la reproducción")
-playsound(rutaArchivo)
-# playsound('sorpresa.mp3')
+playsound(rutaArchivo)  # reproduce audio del archivo que encuentre.
 print("Fin del programa")
