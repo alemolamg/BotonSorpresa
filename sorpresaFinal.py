@@ -9,5 +9,6 @@ while True:
     Status = GPIO.input(24)
     if Status == False:  # Boton pulsado
         print("Botón pulsado")
-        os.system('mpg123 ./audio/audioSorpresa.mp3')
+        os.system('mpg123 ./audio/codigoSae.mp3')
+        os.system('mpg123 ./audio/sirena.mp3')
         time.sleep(0.2)
